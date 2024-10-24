@@ -9,7 +9,7 @@ app.use(express.json())
 function getUser(){
     try{
         let data=fs.readFileSync(path.join(__dirname,"db.json"));
-        data=JSON.parse(data)
+        data=JSON.parse(data)7
         return data
     }
     catch(err){
@@ -53,7 +53,7 @@ m
 promise{
     if err{
         console.log("")
-        8v
+        8v b 
     } 
 
     
